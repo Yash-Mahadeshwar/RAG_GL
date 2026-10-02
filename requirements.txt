@@ -1,0 +1,17 @@
+# Tested on Python 3.10 and 3.11. Install with:  pip install -r requirements.txt
+
+# Steps 01-04: plain Python
+openai==3.23.0
+python-dotenv==1.2.4
+numpy==2.2.6
+pypdf==6.19.0
+chromadb==1.5.9
+
+# Steps 05-07: LangChain (it ships as several small packages)
+langchain-core==1.6.6
+langchain-openai==1.6.7
+langchain-chroma==1.1.0
+langchain-text-splitters==1.1.2
+
+# Step 05b/06: a small CPU-only reranker (downloads a ~22 MB model on first use)
+flashrank==0.2.10

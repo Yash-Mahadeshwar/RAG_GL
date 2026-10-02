@@ -1,0 +1,28 @@
+# Secrets - never commit your API key
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+.ruff_cache/
+
+# Workshop artefacts (rebuilt on demand)
+chroma_db/
+.flashrank_cache/
+
+# Sample PDFs are downloaded by each student (see sample_docs/README.md)
+sample_docs/*.pdf
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Solutions are held back until after the workshop - delete this line to publish them
+solutions/
